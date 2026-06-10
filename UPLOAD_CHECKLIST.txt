@@ -1,0 +1,30 @@
+上传 GitHub 必须包含：
+
+index.html
+styles.css
+app.js
+package.json
+vercel.json
+server.js
+README.md
+VERCEL_FREE_DEPLOY.md
+AUTO_UPDATE_SOURCES.md
+api/site-data.js
+scripts/sync-data.js
+data/site-data.json
+.github/workflows/sync-site-data.yml
+.gitignore
+.vercelignore
+
+注意：
+
+1. .github 是隐藏文件夹，必须上传，否则 GitHub Actions 不会自动同步。
+2. .gitignore 和 .vercelignore 也是隐藏文件，建议一起上传。
+3. 如果用 Finder，看不到隐藏文件时按 Command + Shift + . 显示隐藏文件。
+4. GitHub Actions 需要允许写入仓库：
+   Settings -> Actions -> General -> Workflow permissions -> Read and write permissions
+5. 真正全自动大名单和赛程变化，需要在 GitHub Secrets 填：
+   SQUADS_SOURCE_URL
+   FIXTURES_SOURCE_URL
+   STANDINGS_SOURCE_URL
+

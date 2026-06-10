@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>世界杯预测工作台</title>
+    <link rel="stylesheet" href="styles.css?v=20260608-squad-ai" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div class="hero__backdrop"></div>
+        <div class="hero__content">
+          <div class="topbar">
+            <div>
+              <p class="eyebrow">No. 2026 / Match Forecast</p>
+              <h1>世界杯预测工作台</h1>
+            </div>
+          </div>
+          <div id="todayStrip" class="today-strip"></div>
+
+          <div class="workspace">
+            <aside class="match-list" aria-label="比赛列表">
+              <div class="panel-header">
+                <div>
+                  <p class="eyebrow">Fixtures</p>
+                  <h2>比赛选择</h2>
+                </div>
+                <button class="icon-button" id="resetBtn" title="恢复示例数据" aria-label="恢复示例数据">
+                  ↺
+                </button>
+              </div>
+              <div class="match-filter" role="group" aria-label="比赛筛选">
+                <button class="filter-button is-active" data-filter="upcoming" type="button">赛前比赛</button>
+                <button class="filter-button" data-filter="history" type="button">历史交锋</button>
+                <button class="filter-button" data-filter="all" type="button">全部</button>
+              </div>
+              <div class="fixture-picker" aria-label="赛程筛选">
+                <label>
+                  搜索球队 / 比赛
+                  <input id="matchSearch" type="search" placeholder="例如：美国、巴拉圭、法国" />
+                </label>
+                <div class="fixture-picker__row">
+                  <label>
+                    小组
+                    <select id="groupFilter"></select>
+                  </label>
+                  <label>
+                    日期
+                    <select id="dateFilter"></select>
+                  </label>
+                </div>
+                <div id="matchCount" class="match-count"></div>
+              </div>
+              <div id="matchCards" class="match-cards"></div>
+            </aside>
+
+            <section class="main-panel" aria-live="polite">
+              <div class="match-heading">
+                <div>
+                  <p id="matchMeta" class="eyebrow"></p>
+                  <h2 id="matchTitle"></h2>
+                  <p id="matchContext" class="match-context"></p>
+                </div>
+                <div class="recommendation">
+                  <span>建议</span>
+                  <strong id="recommendationText"></strong>
+                </div>
+              </div>
+
+              <div class="venue-strip" id="venueStrip"></div>
+
+              <div class="probability-grid" id="probabilityGrid"></div>
+
+              <div class="analysis-layout">
+                <section class="analysis-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Reasoning</p>
+                      <h3>详细判断理由</h3>
+                    </div>
+                    <button class="ghost-button" id="exportBtn">导出报告</button>
+                  </div>
+                  <div id="reasonList" class="reason-list"></div>
+                </section>
+
+                <section class="analysis-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Players / Tactics</p>
+                      <h3>球员与战术依赖</h3>
+                    </div>
+                  </div>
+                  <div id="playerIntel" class="intel-grid"></div>
+                </section>
+
+                <section class="analysis-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Risk File</p>
+                      <h3>伤病与潜在风险</h3>
+                    </div>
+                  </div>
+                  <div id="riskList" class="risk-list"></div>
+                </section>
+
+                <section class="analysis-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">History</p>
+                      <h3>历史交锋</h3>
+                    </div>
+                  </div>
+                  <div id="historyList" class="history-list"></div>
+                </section>
+
+                <section class="analysis-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Sources</p>
+                      <h3>信息来源与传闻监控</h3>
+                    </div>
+                  </div>
+                  <div id="sourceList" class="source-list"></div>
+                </section>
+
+                <section class="analysis-panel odds-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Sporttery Odds</p>
+                      <h3>中国体彩赔率视角</h3>
+                    </div>
+                    <a
+                      class="source-link"
+                      href="https://www.sporttery.cn/jc/jsq/zqspf/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      官方奖金页
+                    </a>
+                  </div>
+
+                  <div class="odds-table" id="oddsTable"></div>
+                  <div id="marketRead" class="market-read"></div>
+                  <p class="notice">
+                    赔率与支持率用于观察市场预期，不代表赛果保证。请以中国体育彩票官方发布页面为准。
+                  </p>
+                </section>
+
+                <section class="analysis-panel model-panel">
+                  <div class="panel-header">
+                    <div>
+                      <p class="eyebrow">Model Notes</p>
+                      <h3>预测逻辑依据</h3>
+                    </div>
+                  </div>
+                  <div id="modelBasis" class="model-basis"></div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="editor-band">
+        <div class="editor-wrap">
+          <section class="editor-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Model Inputs</p>
+                <h2>预测因子调整</h2>
+              </div>
+              <div class="segmented" role="group" aria-label="编辑对象">
+                <button class="segment is-active" data-team="home" id="homeSegment">主队</button>
+                <button class="segment" data-team="away" id="awaySegment">客队</button>
+              </div>
+            </div>
+            <div id="factorEditor" class="factor-editor"></div>
+          </section>
+
+          <section class="editor-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Odds Input</p>
+                <h2>体彩数据录入</h2>
+              </div>
+            </div>
+            <div class="odds-editor">
+              <label>
+                主胜奖金
+                <input id="oddsHome" type="number" min="1.01" step="0.01" />
+              </label>
+              <label>
+                平局奖金
+                <input id="oddsDraw" type="number" min="1.01" step="0.01" />
+              </label>
+              <label>
+                客胜奖金
+                <input id="oddsAway" type="number" min="1.01" step="0.01" />
+              </label>
+              <label>
+                主胜支持率 %
+                <input id="supportHome" type="number" min="0" max="100" step="1" />
+              </label>
+              <label>
+                平局支持率 %
+                <input id="supportDraw" type="number" min="0" max="100" step="1" />
+              </label>
+              <label>
+                客胜支持率 %
+                <input id="supportAway" type="number" min="0" max="100" step="1" />
+              </label>
+            </div>
+            <div class="update-row">
+              <button class="primary-button" id="applyOddsBtn">更新赔率判断</button>
+              <a
+                class="source-link"
+                href="https://www.sporttery.cn/help/2968.html?gid=9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                玩法说明
+              </a>
+            </div>
+          </section>
+
+          <section class="editor-panel wide">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Auto Data Pipeline</p>
+                <h2>自动数据同步</h2>
+              </div>
+              <div id="dataStatus" class="data-status">等待数据同步</div>
+            </div>
+            <div class="bridge-grid">
+              <div>
+                <strong>球员级数据</strong>
+                <p>建议接入预计首发、核心球员 rating、出场概率、近 5 场贡献和替补影响。</p>
+              </div>
+              <div>
+                <strong>战术依赖</strong>
+                <p>记录阵型、压迫强度、转换速度，以及战术必须仰仗的具体球员。</p>
+              </div>
+              <div>
+                <strong>风险监控</strong>
+                <p>把伤病、停赛、舆情、更衣室稳定性、临场首发变动做成独立输入。</p>
+              </div>
+              <div>
+                <strong>赛场环境</strong>
+                <p>纳入球场、城市、草皮、开放/封闭屋顶、气候和旅行距离。</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="editor-panel wide">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Live Intelligence</p>
+                <h2>自动情报流</h2>
+              </div>
+              <button class="ghost-button" id="syncNowBtn">立即同步</button>
+            </div>
+            <div id="newsFeed" class="news-feed"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="simulator-band">
+        <div class="simulator-wrap">
+          <section class="simulator-panel standings-panel wide">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Group Tables</p>
+                <h2>小组排名榜</h2>
+              </div>
+            </div>
+            <div id="groupStandings" class="group-standings"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <template id="factorTemplate">
+      <label class="factor-row">
+        <span></span>
+        <input type="range" min="0" max="100" step="1" />
+        <output></output>
+      </label>
+    </template>
+
+    <script src="app.js?v=20260608-squad-ai"></script>
+  </body>
+</html>

@@ -1,0 +1,1556 @@
+{
+  "updatedAt": "2026-06-10T06:53:44.357Z",
+  "source": "local-demo",
+  "analysisDate": "2026-06-10",
+  "analysisLabel": "北京时间 2026-06-10 赛前情报日",
+  "sourcePolicy": {
+    "official": "赛程、场地、历史大赛赛果优先使用 FIFA、UEFA、各足协和中国体育彩票官方信息。",
+    "news": "新闻、伤病、首发预测可自动同步 RSS/API，但需要显示来源、时间和可信度。",
+    "rumor": "内讧、伤病传闻和更衣室消息只作为待核实风险信号，不写成确定事实。"
+  },
+  "sync": {
+    "mode": "startup",
+    "updatedAt": "2026-06-10T06:53:44.357Z",
+    "providers": [
+      "rss-news",
+      "friendlies-results"
+    ],
+    "errors": [],
+    "manualSyncProtected": false,
+    "syncIntervalMinutes": 30,
+    "dailySyncHour": 7,
+    "nextDailySyncAt": "2026-06-10T14:00:00.000Z"
+  },
+  "friendlies": [
+    {
+      "id": "friendly-2026-06-08-france-northern-ireland",
+      "date": "2026-06-08",
+      "competition": "International friendly",
+      "home": "France",
+      "away": "Northern Ireland",
+      "homeScore": 3,
+      "awayScore": 1,
+      "result": "France 3-1 Northern Ireland",
+      "source": "The Guardian results / Cadena SER",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "法国",
+        "北爱尔兰"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-08-netherlands-uzbekistan",
+      "date": "2026-06-08",
+      "competition": "International friendly",
+      "home": "Netherlands",
+      "away": "Uzbekistan",
+      "homeScore": 2,
+      "awayScore": 1,
+      "result": "Netherlands 2-1 Uzbekistan",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "荷兰",
+        "乌兹别克斯坦"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-07-argentina-honduras",
+      "date": "2026-06-07",
+      "competition": "International friendly",
+      "home": "Argentina",
+      "away": "Honduras",
+      "homeScore": 2,
+      "awayScore": 0,
+      "result": "Argentina 2-0 Honduras",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "阿根廷"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-07-morocco-norway",
+      "date": "2026-06-07",
+      "competition": "International friendly",
+      "home": "Morocco",
+      "away": "Norway",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "Morocco 1-1 Norway",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "摩洛哥",
+        "挪威"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-brazil-egypt",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "Brazil",
+      "away": "Egypt",
+      "homeScore": 2,
+      "awayScore": 1,
+      "result": "Brazil 2-1 Egypt",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "巴西",
+        "埃及"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-england-new-zealand",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "England",
+      "away": "New Zealand",
+      "homeScore": 1,
+      "awayScore": 0,
+      "result": "England 1-0 New Zealand",
+      "source": "The Guardian results / Sky Sports",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "英格兰",
+        "新西兰"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-usa-germany",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "USA",
+      "away": "Germany",
+      "homeScore": 1,
+      "awayScore": 2,
+      "result": "USA 1-2 Germany",
+      "source": "The Guardian results / AP",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "美国",
+        "德国"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-belgium-tunisia",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "Belgium",
+      "away": "Tunisia",
+      "homeScore": 5,
+      "awayScore": 0,
+      "result": "Belgium 5-0 Tunisia",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "比利时",
+        "突尼斯"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-portugal-chile",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "Portugal",
+      "away": "Chile",
+      "homeScore": 2,
+      "awayScore": 1,
+      "result": "Portugal 2-1 Chile",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "葡萄牙"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-06-canada-ireland",
+      "date": "2026-06-06",
+      "competition": "International friendly",
+      "home": "Canada",
+      "away": "Rep of Ireland",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "Canada 1-1 Rep of Ireland",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "加拿大"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-04-france-cote-divoire",
+      "date": "2026-06-04",
+      "competition": "International friendly",
+      "home": "France",
+      "away": "Côte d’Ivoire",
+      "homeScore": 1,
+      "awayScore": 2,
+      "result": "France 1-2 Côte d’Ivoire",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "法国",
+        "科特迪瓦"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-04-spain-iraq",
+      "date": "2026-06-04",
+      "competition": "International friendly",
+      "home": "Spain",
+      "away": "Iraq",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "Spain 1-1 Iraq",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "西班牙",
+        "伊拉克"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-03-netherlands-algeria",
+      "date": "2026-06-03",
+      "competition": "International friendly",
+      "home": "Netherlands",
+      "away": "Algeria",
+      "homeScore": 0,
+      "awayScore": 1,
+      "result": "Netherlands 0-1 Algeria",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "荷兰",
+        "阿尔及利亚"
+      ]
+    },
+    {
+      "id": "friendly-2026-06-02-croatia-belgium",
+      "date": "2026-06-02",
+      "competition": "International friendly",
+      "home": "Croatia",
+      "away": "Belgium",
+      "homeScore": 0,
+      "awayScore": 2,
+      "result": "Croatia 0-2 Belgium",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "克罗地亚",
+        "比利时"
+      ]
+    },
+    {
+      "id": "friendly-2026-05-31-brazil-panama",
+      "date": "2026-05-31",
+      "competition": "International friendly",
+      "home": "Brazil",
+      "away": "Panama",
+      "homeScore": 6,
+      "awayScore": 2,
+      "result": "Brazil 6-2 Panama",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "巴西",
+        "巴拿马"
+      ]
+    },
+    {
+      "id": "friendly-2026-05-31-usa-senegal",
+      "date": "2026-05-31",
+      "competition": "International friendly",
+      "home": "USA",
+      "away": "Senegal",
+      "homeScore": 3,
+      "awayScore": 2,
+      "result": "USA 3-2 Senegal",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "美国",
+        "塞内加尔"
+      ]
+    },
+    {
+      "id": "friendly-2026-05-31-germany-finland",
+      "date": "2026-05-31",
+      "competition": "International friendly",
+      "home": "Germany",
+      "away": "Finland",
+      "homeScore": 4,
+      "awayScore": 0,
+      "result": "Germany 4-0 Finland",
+      "source": "The Guardian results",
+      "url": "https://www.theguardian.com/football/friendlies/results",
+      "teams": [
+        "德国"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "rss-59c77a27",
+      "title": "'Different' Clarke bids to smash Scotland's glass ceiling",
+      "summary": "The Scotland head coach feels like a new man heading into a seismic World Cup opener with Haiti - and he is sensing a fresh wave of optimism.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cy5vy5w52wxo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Wed, 10 Jun 2026 06:24:31 GMT",
+      "teams": [
+        "苏格兰"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-b7136dd5",
+      "title": "Who am I? Guess World Cup star No 3",
+      "summary": "Will you get today's player in as few attempts as possible?",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c759x541vn9o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Wed, 10 Jun 2026 05:51:24 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-be811ae7",
+      "title": "The wild hip-hop parties that started Tuchel's journey to England boss",
+      "summary": "Thomas Tuchel is bidding to become the first foreign manager to win the World Cup. BBC Sport charts the start of his journey to becoming England boss.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cvgqevklyx1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Wed, 10 Jun 2026 05:45:28 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-9f9154f5",
+      "title": "Who will win the World Cup? BBC pundits make their predictions",
+      "summary": "Who will win, who might spring a surprise and how will England and Scotland do? BBC pundits predict what will happen at the 2026 World Cup.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cg7485gyxz9o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Wed, 10 Jun 2026 05:24:53 GMT",
+      "teams": [
+        "英格兰",
+        "苏格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-52665c60",
+      "title": "'I designed football shirts for World cup winners'",
+      "summary": "Rob Warner created Italy's royal blue kit in which they lifted the trophy in 2006.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/news/articles/cz0jm4vnnnjo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Wed, 10 Jun 2026 05:24:43 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-6047d718",
+      "title": "Silva agrees to replace Mourinho at Benfica",
+      "summary": "Marco Silva agrees to become Benfica's new head coach as the Portuguese club formalises Jose Mourinho's departure for Real Madrid.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c74y8x7grr3o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 23:06:21 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-33c5c69f",
+      "title": "Uzbekistan World Cup 2026 team guide",
+      "summary": "<p>With a World Cup winner at the helm in Fabio Cannavaro, the White Wolves make their tournament debut</p><p><em>This article is part of the Guardian’s <a href=\"https://www.theguardian.com/football/series/world-cup-2026-guardian-experts-network\">2026 World Cu",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/10/uzbekistan-world-cup-2026-team-guide",
+      "publishedAt": "Tue, 09 Jun 2026 23:01:04 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-93211300",
+      "title": "England miss out on automatic World Cup spot - so what happens now?",
+      "summary": "England beat Ukraine 3-0 on Tuesday night but it did not matter what they did as automatic qualification for the 2027 Women's World Cup was out of their hands.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cvg70dzg3ngo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 22:57:14 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-a94fad2a",
+      "title": "Real Madrid eye Arsenal's Calafiori - Wednesday's gossip",
+      "summary": "Real Madrid scout Arsenal's Riccardo Calafiori, Tottenham consider Juventus defender Gleison Bremer, Manchester United chase Newcastle's Lewis Hall, plus more.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cn8ky3nl7d4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 22:44:33 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-8ab3473f",
+      "title": "Atlético Madrid reject £129m bid from Real Madrid for Julián Alvarez",
+      "summary": "<ul><li><p>Real Madrid reveal they have made offer for Argentinian</p></li><li><p>Benfica say José Mourinho going to Real for €15m fee</p></li></ul><p>Real Madrid have revealed they have had a €150m (£129.4m) bid for Julián Alvarez rejected by city rivals Atlé",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/atletico-madrid-reject-129m-bid-from-real-madrid-for-julian-alvarez",
+      "publishedAt": "Tue, 09 Jun 2026 22:27:01 GMT",
+      "teams": [
+        "阿根廷"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-4a5909fd",
+      "title": "Pain in Grenoble but hope for Irish as play-offs loom",
+      "summary": "Republic of Ireland manager Carla Ward reacts with pride to the World Cup qualifying campaign as her side fall just short of an automatic place at next year's tournament.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c62144y5yz4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 21:43:06 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-ee034c20",
+      "title": "Sullivan banned from contact with West Ham women's and youth teams since 2023",
+      "summary": "The decision followed a safeguarding investigation opened by the the Football Association.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/news/articles/c5yzwy055xdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 21:39:33 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-4b4b4ca1",
+      "title": "Caution over Saka as Tuchel says England must dare to dream",
+      "summary": "England head coach Thomas Tuchel says Bukayo Saka's fitness is being managed with a \"little bit of care\" heading into the World Cup.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cq61ll2p5pzo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 21:04:53 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源，需赛前复核",
+      "category": "injury"
+    },
+    {
+      "id": "rss-7f4f82e4",
+      "title": "Bukayo Saka is playing through pain barrier, says Tuchel, as World Cup looms",
+      "summary": "<ul><li><p>Arsenal forward still struggling with achilles injury</p></li><li><p>‘Bukayo is just not there yet. Some things are missing’</p></li></ul><p>Bukayo Saka continues to play through the pain of an achilles injury, according to the England manager, Thom",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/bukayo-saka-playing-through-pain-barrier-tuchel-world-cup",
+      "publishedAt": "Tue, 09 Jun 2026 21:00:01 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源，需赛前复核",
+      "category": "injury"
+    },
+    {
+      "id": "rss-87868290",
+      "title": "Lionesses ease past Ukraine but must navigate playoffs to qualify for World Cup",
+      "summary": "<ul><li><p>England 3-0 Ukraine</p></li><li><p>Carter 14, Stanway 37, Mead 67</p></li></ul><p>Sarina Wiegman calmly asserted that she was confident England will still qualify for next summer’s World Cup, despite having to settle for a place in the playoffs as S",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/enlgand-ukraine-womens-world-cup-2027-qualifying-match-report",
+      "publishedAt": "Tue, 09 Jun 2026 20:59:35 GMT",
+      "teams": [
+        "巴西",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-10bd681e",
+      "title": "Wales can reach Women's World Cup - Wilkinson",
+      "summary": "Rhian Wilkinson says Wales have the potential to qualify for next year's Women's World Cup after they beat the Czech Republic to claim top spot in Group B1.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c2ly99d4ljjo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 20:27:54 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-5ee30ff7",
+      "title": "Kane is in scorching form but England will need others to step up with goals | Jacob Steinberg",
+      "summary": "<p>With fears about an overreliance on the goalscoring captain, Tuchel needs more from his other attackers</p><p>If Thomas Tuchel requires proof there are worse things to be than the Harry Kane team, he need only hear how underwhelming the future looked when a",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/harry-kane-england-team-thomas-tuchel-world-cup",
+      "publishedAt": "Tue, 09 Jun 2026 19:08:14 GMT",
+      "teams": [
+        "巴西",
+        "英格兰"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-1ba9b214",
+      "title": "Didier Deschamps: ‘Mbappé knows that when he speaks, he speaks for all the players’",
+      "summary": "<p>Questioned in France but championed from afar, the departing head coach has forged a legacy that no one – bar, perhaps, himself – would dare dispute</p><p>Follow the verdant path towards the Château de Clairefontaine and you are met by a three-metre replica",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/didier-deschamps-france-world-cup-kylian-mbappe",
+      "publishedAt": "Tue, 09 Jun 2026 19:00:02 GMT",
+      "teams": [
+        "法国",
+        "克罗地亚"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-f98b8247",
+      "title": "Real Madrid's £130m Alvarez bid laughed off by Atletico",
+      "summary": "Real Madrid make an offer of 150m euros (£130m) for striker Julian Alvarez, but city rivals Atletico Madrid turn it down.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cwy0xl7dwv2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 18:23:07 GMT",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-78fba020",
+      "title": "David Sullivan’s Sport newspapers used sexualised images of underage girls as ‘bait for predatory men’",
+      "summary": "<p>Former victims’ commissioner says publication ‘deliberately came as close as possible to breaking the law’</p><p>David Sullivan’s Sport newspapers used sexualised images of underage girls as “bait for predatory men”, the former victims’ commissioner has sai",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/david-sullivan-sport-newspaper-sexualised-images-underage-girls",
+      "publishedAt": "Tue, 09 Jun 2026 18:05:35 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-79b4d647",
+      "title": "Why ‘podcast wars’ will be real broadcast battleground at this World Cup",
+      "summary": "<p>This summer’s hottest rivalry no longer belongs to the BBC and ITV, but football’s online and streaming presence</p><p>For the first time since the BBC and ITV began sharing World Cup coverage in 1966 their local rivalry will not be the main broadcasting ba",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/podcast-wars-bbc-itv-the-rest-is-football-netflix-fifa-world-cup",
+      "publishedAt": "Tue, 09 Jun 2026 18:00:01 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-872c6326",
+      "title": "Does referee case show Fifa has lost control of its own World Cup?",
+      "summary": "With referee Omar Artan denied entry to the United States and worries over staff and supporters being turned back, what does this tell us about the World Cup?",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/clyr6drdl79o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 17:55:45 GMT",
+      "teams": [
+        "美国"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-7ecbfb35",
+      "title": "Meet the philosopher-in-training who will be at the VAR monitor this World Cup",
+      "summary": "<p>Joe Dickerson is one of North America’s best referees, but he’ll be off the field in a high-pressure position when the World Cup begins</p><p><strong>• </strong><a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/04/bracketology-predict-a-",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/meet-the-philosopher-in-training-who-will-be-at-the-var-monitor-this-world-cup",
+      "publishedAt": "Tue, 09 Jun 2026 16:30:02 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-55a0e747",
+      "title": "From risk of death to oldest man at World Cup - walking miracle Gordon",
+      "summary": "How Craig Gordon's career has been a series of comebacks and the 43-year-old's World Cup inclusion for Scotland seemed an impossible dream only a few months ago.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c5yz5nnx2jro?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 15:10:56 GMT",
+      "teams": [
+        "苏格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-54a08903",
+      "title": "Crystal Palace poised to appoint Pierre Sage as head coach on two-year deal",
+      "summary": "<ul><li><p>Sage guided Lens to second place in Ligue 1 this season</p></li><li><p>Glasner likely to join Milan after rejecting Feyenoord offer</p></li></ul><p>Crystal Palace are poised to appoint Pierre Sage as Oliver Glasner’s successor after holding producti",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/crystal-palace-to-appoint-pierre-sage-head-coach-two-year-deal",
+      "publishedAt": "Tue, 09 Jun 2026 14:17:37 GMT",
+      "teams": [
+        "法国"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-d27e25f",
+      "title": "From World Cup Willie to Tip and Tap: a nostalgic nod to the era of lovably quirky mascots",
+      "summary": "<p>This year’s World Cup serves up yet more soulless, corporate animal slop to leave fans pining for the days of unique talismans</p><p>World Cup Willie marched on to the scene in 1966 with a spiky mane, bovver boy stance, bulbous brogues and – intriguingly fo",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/world-cup-mascots-world-cup-willie-world-cup-2026-maple-zayu-clutch",
+      "publishedAt": "Tue, 09 Jun 2026 14:00:53 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-74cd246",
+      "title": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
+      "summary": "<p>Fifa has found its tournament squarely caught up in the second Trump administration’s aggressive border restrictions</p><p>For successive men’s World Cup tournaments Fifa has managed to bulldoze its way through costly immigration and entry requirements. In ",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/09/world-cup-2026-visa-restrictions-referee-omar-artan-iran-officials",
+      "publishedAt": "Tue, 09 Jun 2026 13:45:06 GMT",
+      "teams": [
+        "巴西"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-bcb724ef",
+      "title": "I have right papers and visa - barred referee Artan",
+      "summary": "Somali referee Omar Artan says he was subjected to an 11-hour immigration interview before being denied entry to the United States for the World Cup despite holding the \"right papers\" and \"right visa\".",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c9d2y76pd57o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 13:43:54 GMT",
+      "teams": [
+        "美国"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-282ef3c",
+      "title": "David Squires on … the World Cup reimagined as Gianni Infantino’s West Side Story",
+      "summary": "<p>As football’s greatest spectacle comes to North America, our cartoonist creates a heartwarming narrative around the Fifa president</p><ul><li><p><a href=\"https://guardianprintshop.com/collections/david-squires\"><strong>Buy a cartoon</strong></a><strong> | <",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/picture/2026/jun/09/david-squires-world-cup-reimagined-gianni-infantinos-west-side-story-cartoon",
+      "publishedAt": "Tue, 09 Jun 2026 11:38:58 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-9d4d61e0",
+      "title": "Play BBC Sport's new World Cup predictor game",
+      "summary": "Play BBC Sport's new World Cup predictor game to be in with the chance of winning a signed football.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cn0plqlkl51o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 08:24:41 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-a114bb73",
+      "title": "Why super-sized and politicised World Cup comes at a cost",
+      "summary": "Whatever one's perspective, it seems certain that away from the on-field spectacle, this super-sized World Cup could be among the most contentious ever.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/cg4wqr2ev33o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 09 Jun 2026 05:57:24 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-7191cc7d",
+      "title": "Lassana Diarra settles with Fifa and Belgian FA after landmark transfer case",
+      "summary": "<ul><li><p>Former Chelsea and Real Madrid midfielder wanted €65m</p></li><li><p>He was denied a transfer to Charleroi in Belgium in 2014</p></li></ul><p>Lassana Diarra has reached a settlement with Fifa and the Belgian Football Association over claims for comp",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/08/lassana-diarra-settles-with-fifa-and-belgian-fa-after-landmark-transfer-case",
+      "publishedAt": "Mon, 08 Jun 2026 16:57:37 GMT",
+      "teams": [
+        "法国",
+        "比利时"
+      ],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-7f398a08",
+      "title": "WSL2 side Durham warn they will ‘cease operations’ without cash injection in 21 days",
+      "summary": "<ul><li><p>‘Do not have sufficient funds to operate in 26-27 season’</p></li><li><p>Talks with potential investors ‘have fallen away’</p></li></ul><p>Durham, the Women’s Super League 2 side, have issued an urgent plea for funding and warned that they will have",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/08/wsl2-side-durham-warn-they-will-cease-operations-without-cash-injection-in-21-days",
+      "publishedAt": "Mon, 08 Jun 2026 16:41:20 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-47a7c83a",
+      "title": "Huge boost for WSL as Alexia Putellas agrees personal terms with London City",
+      "summary": "<ul><li><p>Spanish great moving to England after 14 years at Barça </p></li><li><p>She has been impressed by vision of Michele Kang’s club</p></li></ul><p>Alexia Putellas has agreed personal terms with London City Lionesses. Widely regarded as one of the best ",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/2026/jun/08/wsl-alexia-putellas-join-london-city",
+      "publishedAt": "Mon, 08 Jun 2026 09:56:29 GMT",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-d7bed5af",
+      "title": "Women’s transfer window summer 2026: all deals from world’s top six leagues",
+      "summary": "<p>Every deal in the NWSL, WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide</p> <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-world",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-worlds-top-six-leagues",
+      "publishedAt": "Mon, 08 Jun 2026 09:00:05 GMT",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-2eccbc98",
+      "title": "Men’s transfer window summer 2026: all deals from Europe’s top five leagues",
+      "summary": "<p>All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide</p> <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/08/mens-transfer-window-summer-2026-all-deals-from-europes-top-five-leagues\">Con",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/mens-transfer-window-summer-2026-all-deals-from-europes-top-five-leagues",
+      "publishedAt": "Mon, 08 Jun 2026 09:00:03 GMT",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-3249b176",
+      "title": "How to watch the World Cup on the BBC and ITV",
+      "summary": "All the TV and radio details for each of the 2026 World Cup group games.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c20y4ppqy94o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Sat, 06 Jun 2026 20:30:36 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-cf82f83b",
+      "title": "Bracketology: predict a path to World Cup victory",
+      "summary": "<p>Click your way through the group stage and the knockouts to crown champion</p> <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/04/bracketology-predict-a-path-to-world-cup-victory\">Continue reading...</a>",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/bracketology-predict-a-path-to-world-cup-victory",
+      "publishedAt": "Thu, 04 Jun 2026 10:00:48 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-516fb6b",
+      "title": "World Cup 2026: guide to all 1,248 players",
+      "summary": "<p>Everything you need to know (and more) about every squad member. Click on the player pictures for more information</p> <a href=\"https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide\">Continue reading...</a>",
+      "source": "www.theguardian.com",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
+      "publishedAt": "Thu, 04 Jun 2026 08:55:49 GMT",
+      "teams": [],
+      "confidence": "媒体来源，需赛前复核",
+      "category": "squad"
+    },
+    {
+      "id": "rss-e3dcb4d2",
+      "title": "Download your World Cup 2026 wallchart",
+      "summary": "Get your essential piece of kit now by downloading the Fifa World Cup 2026 wallchart.",
+      "source": "feeds.bbci.co.uk",
+      "url": "https://www.bbc.com/sport/football/articles/c4g51wd9px6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "Tue, 02 Jun 2026 11:06:39 GMT",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-d6fb0c7f",
+      "title": "Littler and Humphries top US Darts Masters bill at Madison Square Garden",
+      "summary": "Luke Littler and Luke Humphries headline a stacked Madison Square Garden bill at the 2026 US Darts Masters.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/darts/news/12040/13552562/us-darts-masters-luke-littler-and-luke-humphries-headline-madison-square-garden-bill",
+      "publishedAt": "Wed, 10 Jun 2026 07:16:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-ec37ccbb",
+      "title": "Quadrillion and Shushu clash at Yarmouth",
+      "summary": "We have a busy day's racing on Wednesday with action from Fontwell and Yarmouth, live on Sky Sports Racing...",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/racing/news/12040/13552105/today-on-sky-sports-racing-fontwell-and-yarmouth",
+      "publishedAt": "Wed, 10 Jun 2026 07:00:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-5080d6c",
+      "title": "World Cup of Darts 2026: Pundit predictions with Littler, Humphries, Rock in action",
+      "summary": "With the World Cup of Darts getting under way on Thursday June 11, live on Sky Sports, the pundits take a look at who are their favourites to win, the dark horses, and what looks to be the best pairing...",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/darts/news/12040/13551187/world-cup-of-darts-2026-pundit-predictions-for-winners-dark-horses-best-pairings-with-luke-littler-luke-humphries-josh-rock-in-action",
+      "publishedAt": "Fri, 05 Jun 2026 16:08:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-21c1fa2a",
+      "title": "Hamilton: First win for Ferrari 'couldn't be closer'",
+      "summary": "Lewis Hamilton says he \"couldn't be closer\" to a first grand prix victory for Ferrari amid his best run of form since joining the Italian team.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/f1/news/12040/13552393/lewis-hamilton-says-his-first-win-for-ferrari-couldnt-be-closer-after-going-second-in-championship-with-strong-monaco-showing",
+      "publishedAt": "Wed, 10 Jun 2026 06:00:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-3be22966",
+      "title": "Lionesses bemoan 'toughest group' as World Cup hopes hang in the balance",
+      "summary": "Sarina Wiegman and multiple England stars rued the 'toughest' World Cup qualifying group after failing to earn an automatic spot in next year's tournament despite winning five of their six games.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552532/england-women-3-0-ukraine-women-lionesses-rue-spain-defeat-as-they-question-how-one-defeat-cost-them-automatic-world-cup-spot",
+      "publishedAt": "Tue, 09 Jun 2026 23:15:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-58bad5f0",
+      "title": "Relegated twice - so why is Fernandes still wanted by Europe's best?",
+      "summary": "Not many players get a big move after being relegated twice in their first two Premier League seasons. But Mateus Fernandes is still sought after.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552345/mateus-fernandes-the-reasons-why-manchester-united-and-europes-best-are-interested-in-a-midfielder-who-has-been-relegated-twice",
+      "publishedAt": "Tue, 09 Jun 2026 20:00:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-d50bccf5",
+      "title": "Stokes considering his future after nightclub incident",
+      "summary": "England Test captain Ben Stokes is considering his future after he and Gus Atkinson breached the England team&#8217;s new midnight curfew and were at a nightclub when an altercation took place with a Saracens rugby player.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/cricket/news/12040/13552470/ben-stokes-england-test-captain-considering-future-after-nightclub-incident-involving-gus-atkinson-and-saracens-player",
+      "publishedAt": "Tue, 09 Jun 2026 19:00:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-14813be7",
+      "title": "'You make us laugh more than Barca!' - Atleti mock Real after £129m Alvarez bid",
+      "summary": "\"You make us laugh even more than Barcelona,\" said the official Atletico Madrid social media team as they mocked rivals Real Madrid after rejecting their &#163;129m (&#8364;150m) bid for striker Julian Alvarez.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552447/julian-alvarez-real-madrid-announce-129m-bid-for-atletico-madrid-forward-has-been-rejected-amid-barcelona-interest",
+      "publishedAt": "Tue, 09 Jun 2026 18:30:00 BST",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-aada1d3f",
+      "title": "England third favourites? Their real World Cup chances assessed",
+      "summary": "The World Cup is finally upon us. Could it be England's year?",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552254/englands-world-cup-chances-assessed-as-they-are-rated-third-favourites-behind-spain-and-france-between-the-lines",
+      "publishedAt": "Tue, 09 Jun 2026 16:00:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-b275a0dd",
+      "title": "Is Saka's fitness a concern for England? Winger's availability numbers analysed",
+      "summary": "Sky Sports' David Reed analyses Bukayo Saka's fitness numbers after England boss Thomas Tuchel admitted he was 'unlikely' to start and finish a full match.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/watch/video/13552565/is-bukayo-sakas-fitness-a-concern-for-england-ahead-of-world-cup",
+      "publishedAt": "Wed, 10 Jun 2026 07:23:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源，需赛前复核",
+      "category": "injury"
+    },
+    {
+      "id": "rss-8c1a450c",
+      "title": "Tuchel's mission to remove pressure from as he plays down favourites tag",
+      "summary": "Before Thomas Tuchel's first game in charge of England, back in March 2025, he said he felt the team had been too full of \"fear\" to go and win Euro 2024. He said his mission was to try to remove that trepidation.&#160;",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552536/world-cup-2026-why-thomas-tuchel-said-england-are-not-favourites-to-end-60-years-of-hurt-in-usa-canada-and-mexico",
+      "publishedAt": "Wed, 10 Jun 2026 07:00:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-8e2b03c",
+      "title": "England latest: Saka not ready for 90 minutes yet, reveals Tuchel",
+      "summary": "",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+      "publishedAt": "Tue, 09 Jun 2026 23:49:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-e38d6307",
+      "title": "FIA confirm hearing date for Alpine appeal against Gasly Monaco penalties",
+      "summary": "Alpine's appeal against pit-lane speeding penalties given to Pierre Gasly during the Monaco Grand Prix will be heard on Thursday, the FIA has confirmed.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/f1/news/12040/13552418/fia-confirm-date-for-alpine-appeal-hearing-over-monaco-gp-speeding-penalties-for-pierre-gasly",
+      "publishedAt": "Tue, 09 Jun 2026 18:30:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-43769d22",
+      "title": "'Nobody's unified yet!' - Catterall 'better than ever' as he sets new big targets",
+      "summary": "New world champion Jack Catterall says he feels \"better than ever\" and that there are \"great fights to be made\" should he not face Rolando 'Rolly' Romero for the vacant WBA welterweight title.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/boxing/news/12040/13552465/jack-catterall-better-than-ever-as-he-offers-rolando-romero-fight-update-and-welterweight-unification-ambitions",
+      "publishedAt": "Wed, 10 Jun 2026 07:00:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-4e48f090",
+      "title": "Crystal Palace agree deal in principle for Lens boss Sage",
+      "summary": "Crystal Palace have agreed a deal in principle for Pierre Sage to become their new head coach.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13550402/pierre-sage-crystal-palace-agree-deal-in-principle-for-rc-lens-coach-to-take-over-as-oliver-glasners-replacement",
+      "publishedAt": "Tue, 09 Jun 2026 15:00:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-af5e130d",
+      "title": "Raducanu makes blistering Queen's start before doubles exit with Boulter",
+      "summary": "Emma Raducanu got her HSBC Championships off to a blistering start with a straight-sets win over Anna Blinkova, before her and Katie Boulter were beaten in their doubles opener.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/tennis/news/12040/13552301/queens-club-emma-raducanu-impresses-in-blistering-straight-sets-win-over-anna-blinkova-in-lead-up-to-wimbledon",
+      "publishedAt": "Tue, 09 Jun 2026 13:56:00 BST",
+      "teams": [],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-f715f09c",
+      "title": "Explained: What Lionesses can expect in World Cup playoffs",
+      "summary": "Anton Toloui explains how England can still qualify for the World Cup despite missing out on automatic qualification for next years tournament.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/watch/video/13552406/lionesses-how-can-england-qualify-for-the-world-cup-tonight",
+      "publishedAt": "Tue, 09 Jun 2026 16:35:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    },
+    {
+      "id": "rss-b3cb427d",
+      "title": "Fulham latest: Jimenez set to join Wolves on free transfer",
+      "summary": "",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/live-blog/12040/13279313/fulham-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+      "publishedAt": "Tue, 09 Jun 2026 15:00:00 BST",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-5a27728a",
+      "title": "Papers: Baleba discusses Old Trafford move with Man Utd players",
+      "summary": "The top stories and transfer rumours from Wednesday's newspapers...",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/news/12040/13552509/man-utd-transfer-news-brighton-midfielder-carlos-baleba-discusses-potential-old-trafford-move-with-players",
+      "publishedAt": "Tue, 09 Jun 2026 23:18:00 BST",
+      "teams": [],
+      "confidence": "传闻监控",
+      "category": "rumor"
+    },
+    {
+      "id": "rss-ea84104a",
+      "title": "Lionesses forced to settle for World Cup play-off spot despite Ukraine win",
+      "summary": "England were forced to settle for a Women's World Cup play-off spot despite easing past Ukraine at the Hill Dickinson Stadium.",
+      "source": "www.skysports.com",
+      "url": "https://www.skysports.com/football/england-women-vs-ukraine-women/report/550130",
+      "publishedAt": "Tue, 09 Jun 2026 21:50:00 BST",
+      "teams": [
+        "英格兰"
+      ],
+      "confidence": "媒体来源自动抓取",
+      "category": "news"
+    }
+  ],
+  "groupStandings": [
+    {
+      "group": "A",
+      "teams": [
+        {
+          "name": "A1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "A2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "A3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "A4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teams": [
+        {
+          "name": "B1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "B2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "B3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "B4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teams": [
+        {
+          "name": "C1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "C2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "C3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "C4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teams": [
+        {
+          "name": "D1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "D2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "D3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "D4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teams": [
+        {
+          "name": "E1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "E2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "E3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "E4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teams": [
+        {
+          "name": "F1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "F2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "F3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "F4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teams": [
+        {
+          "name": "G1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "G2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "G3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "G4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teams": [
+        {
+          "name": "H1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "H2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "H3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "H4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teams": [
+        {
+          "name": "I1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "I2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "I3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "I4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teams": [
+        {
+          "name": "J1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "J2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "J3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "J4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teams": [
+        {
+          "name": "K1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "K2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "K3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "K4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teams": [
+        {
+          "name": "L1 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "L2 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "L3 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        },
+        {
+          "name": "L4 待定",
+          "played": 0,
+          "win": 0,
+          "draw": 0,
+          "loss": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "points": 0
+        }
+      ]
+    }
+  ]
+}

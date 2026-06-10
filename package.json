@@ -1,0 +1,16 @@
+{
+  "name": "world-cup-forecast-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "World Cup forecast website with automatic data sync.",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "dev": "node server.js",
+    "sync:data": "node scripts/sync-data.js",
+    "check": "node --check app.js && node --check server.js && node --check api/site-data.js && node --check scripts/sync-data.js && node -e \"JSON.parse(require('fs').readFileSync('data/site-data.json','utf8')); JSON.parse(require('fs').readFileSync('vercel.json','utf8')); console.log('data ok')\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
